@@ -1,20 +1,20 @@
 var quizQuestions = [
     {
         qnum: "01",
-        question: "HTML stands for ?",
-        option1: "HyperText Machine Language",
-        option2: "HyperText Markup Language",
-        option3: "HyperText Man-Made Language",
-        option4: "HyperText & Links Markup Language",
+        question: "To insert a JavaScript into an HTML page, which tag is used?",
+        option1: "script tag",
+        option2: "javascript tag",
+        option3: "JS tag",
+        option4: "link tag",
         correctAnswer: "HyperText Markup Language"
     },
     {
         qnum: "02",
-        question: "HTML stands for 2222222?",
-        option1: "HyperText Machine Language",
-        option2: "HyperText Markup Language",
-        option3: "HyperText Man-Made Language",
-        option4: "HyperText & Links Markup Language",
+        question: "Which of the following is a server-side Java Script object?",
+        option1: "File",
+        option2: "Function",
+        option3: "FileUpload",
+        option4: "Date",
         correctAnswer: "HyperText Markup Language"
     },
     {
@@ -82,11 +82,11 @@ var quizQuestions = [
     },
     {
         qnum: "10",
-        question: "HTML stands for ?",
-        option1: "HyperText Machine Language",
-        option2: "HyperText Markup Language",
-        option3: "HyperText Man-Made Language",
-        option4: "HyperText & Links Markup Language",
+        question: "Which of the below is used in Java script to insert special characters?",
+        option1: "&",
+        option2: "\\",
+        option3: "-",
+        option4: "%e",
         correctAnswer: "HyperText Markup Language"
     },
 ]
