@@ -91,48 +91,48 @@ var quizQuestions = [
     },
     {
         qnum: "11",
-        question: "To insert a JavaScript into an HTML page, which tag is used?",
-        option1: " script tag",
-        option2: " javascript tag",
-        option3: " JS tag",
-        option4: " link tag",
-        correctAnswer: "HyperText Markup Language"
+        question: "What is the correct syntax for a “for” loop in JavaScript?",
+        option1: " for (var i = 0; i < 5)",
+        option2: " for (i = 0; i < 5; i++)",
+        option3: " for (var i = 0; i < 5; i++)",
+        option4: " for (i = 5; i > 0; i–)",
+        correctAnswer: " for (var i = 0; i < 5; i++)"
     },
     {
         qnum: "12",
-        question: "What does the typeof operator do in JavaScript?",
-        option1: " Returns the data type of a variable",
-        option2: " Checks if a variable is defined",
-        option3: " Assigns a value to a variable",
-        option4: " Concatenates two strings",
-        correctAnswer: " Returns the data type of a variable"
+        question: "What is the difference between “==” and “===” operators in JavaScript?",
+        option1: " “==” performs a strict comparison, while “===” performs a loose comparison",
+        option2: " “===” performs a strict comparison, while “==” performs a loose comparison",
+        option3: " They both perform the same type of comparison",
+        option4: " They are interchangeable",
+        correctAnswer: " “===” performs a strict comparison, while “==” performs a loose comparison"
     },
     {
         qnum: "13",
-        question: "Which of the following is not a primitive data type in JavaScript?",
-        option1: " Number",
-        option2: " String",
-        option3: " Boolean",
-        option4: " Object",
-        correctAnswer: " Object"
+        question: "What is the output of the following code: <br> var x = 10;<br>var y = “5”; <br>console.log(x – y);",
+        option1: " 5",
+        option2: " 10",
+        option3: " 15",
+        option4: " 105",
+        correctAnswer: " 5"
     },
     {
         qnum: "14",
-        question: "Which of the following is not a comparison operator in JavaScript?",
-        option1: " ==",
-        option2: " ===",
-        option3: " !=",
-        option4: " =<",
-        correctAnswer: " =<"
+        question: "What is the output of the following code:<br>var x = [1, 2, 3]; <br>var y = […x];<br>console.log(y);",
+        option1: " [3,2,1]",
+        option2: " [1,2,3]",
+        option3: " Error",
+        option4: " None of these",
+        correctAnswer: " [1,2,3]"
     },
     {
         qnum: "15",
-        question: "What does the “NaN” value represent in JavaScript?",
-        option1: " Not a Number",
-        option2: " Null Value",
-        option3: " Undefined Value",
-        option4: " Boolean Value",
-        correctAnswer: " Not a Number"
+        question: "What is the output of the following code: <br>console.log(Math.random());",
+        option1: " 0",
+        option2: " A random number between 1 and 100",
+        option3: " A random number between 0 and 100",
+        option4: " A random number between 0 and 1",
+        correctAnswer: " A random number between 0 and 1"
     },
     {
         qnum: "16",
@@ -145,12 +145,12 @@ var quizQuestions = [
     },
     {
         qnum: "17",
-        question: "What is the output of the following code: <br> var x = 5 <br> console.log(x++);",
-        option1: " 3",
-        option2: " 5",
-        option3: " 4",
-        option4: " Error",
-        correctAnswer: " 5"
+        question: "What is the difference between “let” and “const” keywords in JavaScript?",
+        option1: " They are interchangeable",
+        option2: " “let” variables cannot be reassigned, while “const” variables can",
+        option3: " “const” variables cannot be reassigned, while “let” variables can",
+        option4: " “let” and “const” both refer to constant variables",
+        correctAnswer: " “const” variables cannot be reassigned, while “let” variables can"
     },
     {
         qnum: "18",
