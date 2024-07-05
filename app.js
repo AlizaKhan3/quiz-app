@@ -163,21 +163,21 @@ var quizQuestions = [
     },
     {
         qnum: "19",
-        question: "What is the output of the following code: <br> var x = [1, 2, 3]; <br> console.log(x.length);",
-        option1: " 4",
-        option2: " 2",
-        option3: " 1",
-        option4: " 3",
+        question: "Which of the following is not a data type in JavaScript?",
+        option1: " Boolean",
+        option2: " Character",
+        option3: " String",
+        option4: " Number",
         correctAnswer: " 3"
     },
     {
         qnum: "20",
-        question: "What is the output of the following code: <br> console.log(typeof NaN);",
-        option1: " Number",
-        option2: " String",
+        question: "What is the output of the following code: <br> var x = [1,2,3];<br> console.log(x[3]);",
+        option1: " 3",
+        option2: " Error",
         option3: " undefined",
         option4: " NaN",
-        correctAnswer: " Number"
+        correctAnswer: " undefined"
     },
 ]
 
