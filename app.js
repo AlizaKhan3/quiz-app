@@ -109,7 +109,7 @@ var quizQuestions = [
     },
     {
         qnum: "13",
-        question: "What is the output of the following code: <br> var x = 10;<br>var y = “5”; <br>console.log(x – y);",
+        question: "What is the output of the following code: <br> var x = 10; var y = “5”; <br>console.log(x – y);",
         option1: " 5",
         option2: " 10",
         option3: " 15",
@@ -118,7 +118,7 @@ var quizQuestions = [
     },
     {
         qnum: "14",
-        question: "What is the output of the following code:<br>var x = [1, 2, 3]; <br>var y = […x];<br>console.log(y);",
+        question: "What is the output of the following code:<br>var x = [1, 2, 3]; var y = […x];<br>console.log(y);",
         option1: " [3,2,1]",
         option2: " [1,2,3]",
         option3: " Error",
@@ -154,12 +154,12 @@ var quizQuestions = [
     },
     {
         qnum: "18",
-        question: "What does the “this” keyword refer to in JavaScript?",
-        option1: " The current function",
-        option2: " The parent object of the current object",
-        option3: " The object that the function belongs to",
-        option4: " The global object",
-        correctAnswer: " The object that the function belongs to"
+        question: "What is the output of the following code:<br>console.log(1 + “2” + 3);",
+        option1: " “123”",
+        option2: " 6",
+        option3: " “15”",
+        option4: " Error",
+        correctAnswer: " “123”"
     },
     {
         qnum: "19",
