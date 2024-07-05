@@ -1,17 +1,15 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: 'Times New Roman', Times, serif;
-    /* background-color: black; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 body {
-    /* background-color: #34C759; green background */
     background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17));
     font-family: Arial, sans-serif;
 }
+
 .quiz-container {
     max-width: 800px;
     margin: 50px auto;
@@ -21,62 +19,100 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.nav{
+
+.nav {
     height: 70px;
     background-color: #006400;
 }
 
-.nav-link{
+.nav-link {
     color: #fff;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #fff;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.container-fluid{
+.container-fluid {
     background: linear-gradient(75.7deg, rgb(34, 126, 34) 3.8%, rgb(99, 162, 17));
     background-repeat: no-repeat;
 }
 
-.card-body{
+.card-body {
     height: 17rem;
 }
-.card-header{
+
+.card-header {
     font-size: larger;
 }
-.timer{
-    margin-left: 28rem;
+
+.timer {
+    margin-left: 25rem;
+}
+
+.btn{
+    background-color: #006400;
+    padding: 10px 20px;
+    border: 1px solid #006400;
+    font-size: larger;
+}
+
+.btn:hover{
+    background-color: #049104;
+    border: 1px solid #049104;
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 799px) {
     .quiz-container {
         margin: 20px auto;
         padding: 15px;
     }
 
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .timer {
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+
 }
+
 @media (max-width: 480px) {
     .quiz-container {
         margin: 10px auto;
         padding: 10px;
     }
+
     .nav-link {
         font-size: 16px;
     }
+
     .btn {
         font-size: 14px;
         padding: 8px 12px;
     }
+
     .quizView {
         width: 100%;
     }
-    .timer{
-        margin-left: 10rem;
+
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .timer {
+        margin-left: 20px;
+        padding-top: 5px;
     }
 }

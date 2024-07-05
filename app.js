@@ -223,7 +223,7 @@ function renderQuestion(increment = true) {
 
     quizView.innerHTML = `<div class="card">
             <div class="card-header">
-                Question# <span id="questionNumber">${quizQuestions[index].qnum}</span>/20
+                 <span id="questionNumber">Question# ${quizQuestions[index].qnum}/20</span>
               <i class="fa-solid fa-clock timer" style="color: #006400;"><span id="timer" class="m-2"></span></i>
             </div>
             <div class="card-body">
