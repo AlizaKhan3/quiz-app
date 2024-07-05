@@ -217,6 +217,12 @@ function renderQuestion(increment = true) {
 
     if (!quizQuestions[index]) {
         console.log("You Scored" + score);
+        Swal.fire({
+            icon: "success",
+            // title: "Hurray!",
+            text: "You Scored " + score + "/20",
+            // footer: '<a href="#">Why do I have this issue?</a>'
+          });
         return;
 
     }
